@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #BDD4E7;
+  font-family: 'Indie Flower', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  height: 15vh;
+  z-index: 1;
+  background-color: #093A3E;
+  font-family: 'Indie Flower', cursive;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 3rem;
+  color: #BDD4E7 !important;
+}
+
+.board-container {
+  padding-top: 4rem;
+  height: 60vh;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.board {
+  display: flex;
+  align-items: center;
+}
+
+.board-box {
+  padding: 1rem;
+  margin: 0.1rem;
+  border: 0.2rem solid #093A3E;
+  border-radius: 0.5rem;
+  height: 15vh;
+  line-height: 11vh;
+  font-family: 'Indie Flower', cursive;
+  font-size: 7rem;
+}
+
+.board-box:hover {
+  background-color: #093A3E;
+  cursor: pointer;
+  color: #BDD4E7;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
