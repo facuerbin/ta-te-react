@@ -1,9 +1,9 @@
-import React from 'react'
 import {
     BrowserRouter as Router, Route, Switch
 } from "react-router-dom";
 import Button from './Button'
 import Board from './Board';
+import Welcome from "./Welcome";
 
 export default function GameBoard() {
     return (
@@ -12,7 +12,7 @@ export default function GameBoard() {
             <Router>
                 <Switch>
                     <Route exact path="/play" component={Board} />
-                    <Route exact path="/" component={Button} />
+                    <Route exact path="/" component={Welcome} />
                 </Switch>
             </Router>
             </div>

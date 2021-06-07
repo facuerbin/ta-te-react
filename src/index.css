@@ -10,6 +10,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+input {
+  font-family: 'Indie Flower', cursive !important;
+}
+
 header {
   height: 15vh;
   z-index: 1;
@@ -49,7 +53,7 @@ header {
   font-size: 7rem;
 }
 
-.board-box:hover {
+.board-box-hover {
   background-color: #093A3E;
   cursor: pointer;
   color: #BDD4E7;
